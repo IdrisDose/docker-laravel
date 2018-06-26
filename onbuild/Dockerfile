@@ -10,4 +10,3 @@ ONBUILD RUN chmod -R 777 storage
 ONBUILD RUN chmod -R 777 bootstrap/cache
 
 ONBUILD RUN composer dump-autoload
-ONBUILD RUN php artisan optimize
