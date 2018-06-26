@@ -1,4 +1,4 @@
-FROM petecoop/laravel
+FROM idrisdev/docker-laravel
 
 # install composer deps
 ONBUILD COPY composer.json composer.json
